@@ -75,7 +75,7 @@ export default function Dashboard() {
           minChildWidth="320px"
           alignContent="flex-start"
         >
-          <Box p="8" pb="4" bg="gray.800" borderRadius={8}>
+          <Box p={['6', '8']} pb="4" bg="gray.800" borderRadius={8}>
             <Text fontSize="lg" mb="4">
               Inscritos da semana
             </Text>
